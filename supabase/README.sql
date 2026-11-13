@@ -1,0 +1,6 @@
+-- NOVA Pay 2.0: estrutura já aplicada no Supabase dthqzavxqoejqszsijqd
+-- Não executar novamente sem revisar o histórico de migrações.
+-- Tabelas: public.np_profiles, public.np_payment_intents, public.np_provider_events.
+-- Todas usam RLS. Clientes autenticados só leem os próprios dados.
+-- A criação/alteração de pagamentos reais ficará restrita ao backend autenticado.
+-- Nenhuma credencial de PSP ou service_role deve ser exposta no GitHub Pages.
